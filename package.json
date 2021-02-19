@@ -1,17 +1,26 @@
 {
-    "name": "@aeroware/slow.db",
-    "version": "1.0.0",
-    "description": "slow.db aims to make using a database easy but at the price of being slow",
-    "main": "index.js",
-    "scripts": {
-        "watch": "tsc -watch",
-        "dev": "nodemon -w *.ts test.ts",
-        "test": "echo \"Error: no test specified\" && exit 1"
-    },
-    "dependencies": {
-        "@types/uuid": "^8.3.0",
-        "uuid": "^3.4.0"
-    },
-    "keywords": [],
-    "author": "im-lonely <cursors.dev@gmail.com>"
+  "name": "@aeroware/slow.db",
+  "version": "1.0.0",
+  "description": "slow.db aims to make using a database easy but at the price of being slow",
+  "main": "index.js",
+  "scripts": {
+    "watch": "tsc -watch",
+    "dev": "nodemon -w *.ts test.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "@types/uuid": "^8.3.0",
+    "uuid": "^3.4.0"
+  },
+  "keywords": [],
+  "author": "im-lonely <cursors.dev@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aero-ware/slow.db.git"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/aero-ware/slow.db/issues"
+  },
+  "homepage": "https://github.com/aero-ware/slow.db#readme"
 }
